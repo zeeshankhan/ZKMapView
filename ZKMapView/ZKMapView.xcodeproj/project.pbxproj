@@ -18,6 +18,34 @@
 		D03201251692A340003A5E16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D03201241692A340003A5E16 /* Default-568h@2x.png */; };
 		D03201281692A340003A5E16 /* ZKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201271692A340003A5E16 /* ZKViewController.m */; };
 		D032012B1692A340003A5E16 /* ZKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03201291692A340003A5E16 /* ZKViewController.xib */; };
+		D032016B1692A507003A5E16 /* CalloutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D032013F1692A507003A5E16 /* CalloutAnnotation.m */; };
+		D032016C1692A507003A5E16 /* CalloutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201411692A507003A5E16 /* CalloutAnnotationView.m */; };
+		D032016D1692A507003A5E16 /* CalloutAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03201421692A507003A5E16 /* CalloutAnnotationView.xib */; };
+		D032016E1692A507003A5E16 /* mapTree.png in Resources */ = {isa = PBXBuildFile; fileRef = D03201431692A507003A5E16 /* mapTree.png */; };
+		D03201701692A507003A5E16 /* PinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201471692A507003A5E16 /* PinAnnotation.m */; };
+		D03201711692A507003A5E16 /* ZKCustomAnnotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201491692A507003A5E16 /* ZKCustomAnnotationVC.m */; };
+		D03201721692A507003A5E16 /* ZKCustomAnnotationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D032014A1692A507003A5E16 /* ZKCustomAnnotationVC.xib */; };
+		D03201731692A507003A5E16 /* MapItemList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D032014B1692A507003A5E16 /* MapItemList.plist */; };
+		D03201741692A507003A5E16 /* ZKNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D032014E1692A507003A5E16 /* ZKNetworkHandler.m */; };
+		D03201751692A507003A5E16 /* ZKRouteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201501692A507003A5E16 /* ZKRouteVC.m */; };
+		D03201761692A507003A5E16 /* ZKRouteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03201511692A507003A5E16 /* ZKRouteVC.xib */; };
+		D03201771692A507003A5E16 /* ZKCurrentLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201541692A507003A5E16 /* ZKCurrentLocationVC.m */; };
+		D03201781692A507003A5E16 /* ZKCurrentLocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03201551692A507003A5E16 /* ZKCurrentLocationVC.xib */; };
+		D03201791692A507003A5E16 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D03201571692A507003A5E16 /* logo.png */; };
+		D032017A1692A507003A5E16 /* pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = D03201581692A507003A5E16 /* pin_red.png */; };
+		D032017B1692A507003A5E16 /* pin_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D03201591692A507003A5E16 /* pin_red@2x.png */; };
+		D032017C1692A507003A5E16 /* ZKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D032015B1692A507003A5E16 /* ZKAnnotation.m */; };
+		D032017D1692A507003A5E16 /* ZKAnnotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D032015D1692A507003A5E16 /* ZKAnnotationVC.m */; };
+		D032017E1692A507003A5E16 /* ZKAnnotationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D032015E1692A507003A5E16 /* ZKAnnotationVC.xib */; };
+		D032017F1692A507003A5E16 /* ZKDragDropAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201611692A507003A5E16 /* ZKDragDropAnnotation.m */; };
+		D03201801692A507003A5E16 /* ZKDragDropVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201631692A507003A5E16 /* ZKDragDropVC.m */; };
+		D03201811692A507003A5E16 /* ZKDragDropVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03201641692A507003A5E16 /* ZKDragDropVC.xib */; };
+		D03201821692A507003A5E16 /* ZKOverlayAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201671692A507003A5E16 /* ZKOverlayAnnotation.m */; };
+		D03201831692A507003A5E16 /* ZKOverlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D03201691692A507003A5E16 /* ZKOverlayVC.m */; };
+		D03201841692A507003A5E16 /* ZKOverlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D032016A1692A507003A5E16 /* ZKOverlayVC.xib */; };
+		D032018D1692A56B003A5E16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D032018A1692A56B003A5E16 /* CoreLocation.framework */; };
+		D032018E1692A56B003A5E16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D032018B1692A56B003A5E16 /* MapKit.framework */; };
+		D032018F1692A56B003A5E16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D032018C1692A56B003A5E16 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +65,47 @@
 		D03201261692A340003A5E16 /* ZKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKViewController.h; sourceTree = "<group>"; };
 		D03201271692A340003A5E16 /* ZKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKViewController.m; sourceTree = "<group>"; };
 		D032012A1692A340003A5E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKViewController.xib; sourceTree = "<group>"; };
+		D032013E1692A507003A5E16 /* CalloutAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutAnnotation.h; sourceTree = "<group>"; };
+		D032013F1692A507003A5E16 /* CalloutAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutAnnotation.m; sourceTree = "<group>"; };
+		D03201401692A507003A5E16 /* CalloutAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutAnnotationView.h; sourceTree = "<group>"; };
+		D03201411692A507003A5E16 /* CalloutAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutAnnotationView.m; sourceTree = "<group>"; };
+		D03201421692A507003A5E16 /* CalloutAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutAnnotationView.xib; sourceTree = "<group>"; };
+		D03201431692A507003A5E16 /* mapTree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapTree.png; sourceTree = "<group>"; };
+		D03201461692A507003A5E16 /* PinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinAnnotation.h; sourceTree = "<group>"; };
+		D03201471692A507003A5E16 /* PinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinAnnotation.m; sourceTree = "<group>"; };
+		D03201481692A507003A5E16 /* ZKCustomAnnotationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCustomAnnotationVC.h; sourceTree = "<group>"; };
+		D03201491692A507003A5E16 /* ZKCustomAnnotationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCustomAnnotationVC.m; sourceTree = "<group>"; };
+		D032014A1692A507003A5E16 /* ZKCustomAnnotationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKCustomAnnotationVC.xib; sourceTree = "<group>"; };
+		D032014B1692A507003A5E16 /* MapItemList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapItemList.plist; sourceTree = "<group>"; };
+		D032014D1692A507003A5E16 /* ZKNetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetworkHandler.h; sourceTree = "<group>"; };
+		D032014E1692A507003A5E16 /* ZKNetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetworkHandler.m; sourceTree = "<group>"; };
+		D032014F1692A507003A5E16 /* ZKRouteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKRouteVC.h; sourceTree = "<group>"; };
+		D03201501692A507003A5E16 /* ZKRouteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKRouteVC.m; sourceTree = "<group>"; };
+		D03201511692A507003A5E16 /* ZKRouteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKRouteVC.xib; sourceTree = "<group>"; };
+		D03201531692A507003A5E16 /* ZKCurrentLocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCurrentLocationVC.h; sourceTree = "<group>"; };
+		D03201541692A507003A5E16 /* ZKCurrentLocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCurrentLocationVC.m; sourceTree = "<group>"; };
+		D03201551692A507003A5E16 /* ZKCurrentLocationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKCurrentLocationVC.xib; sourceTree = "<group>"; };
+		D03201571692A507003A5E16 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D03201581692A507003A5E16 /* pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_red.png; sourceTree = "<group>"; };
+		D03201591692A507003A5E16 /* pin_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_red@2x.png"; sourceTree = "<group>"; };
+		D032015A1692A507003A5E16 /* ZKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAnnotation.h; sourceTree = "<group>"; };
+		D032015B1692A507003A5E16 /* ZKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAnnotation.m; sourceTree = "<group>"; };
+		D032015C1692A507003A5E16 /* ZKAnnotationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAnnotationVC.h; sourceTree = "<group>"; };
+		D032015D1692A507003A5E16 /* ZKAnnotationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAnnotationVC.m; sourceTree = "<group>"; };
+		D032015E1692A507003A5E16 /* ZKAnnotationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKAnnotationVC.xib; sourceTree = "<group>"; };
+		D03201601692A507003A5E16 /* ZKDragDropAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDragDropAnnotation.h; sourceTree = "<group>"; };
+		D03201611692A507003A5E16 /* ZKDragDropAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDragDropAnnotation.m; sourceTree = "<group>"; };
+		D03201621692A507003A5E16 /* ZKDragDropVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDragDropVC.h; sourceTree = "<group>"; };
+		D03201631692A507003A5E16 /* ZKDragDropVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDragDropVC.m; sourceTree = "<group>"; };
+		D03201641692A507003A5E16 /* ZKDragDropVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKDragDropVC.xib; sourceTree = "<group>"; };
+		D03201661692A507003A5E16 /* ZKOverlayAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKOverlayAnnotation.h; sourceTree = "<group>"; };
+		D03201671692A507003A5E16 /* ZKOverlayAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKOverlayAnnotation.m; sourceTree = "<group>"; };
+		D03201681692A507003A5E16 /* ZKOverlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKOverlayVC.h; sourceTree = "<group>"; };
+		D03201691692A507003A5E16 /* ZKOverlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKOverlayVC.m; sourceTree = "<group>"; };
+		D032016A1692A507003A5E16 /* ZKOverlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKOverlayVC.xib; sourceTree = "<group>"; };
+		D032018A1692A56B003A5E16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D032018B1692A56B003A5E16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D032018C1692A56B003A5E16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +116,9 @@
 				D032010F1692A340003A5E16 /* UIKit.framework in Frameworks */,
 				D03201111692A340003A5E16 /* Foundation.framework in Frameworks */,
 				D03201131692A340003A5E16 /* CoreGraphics.framework in Frameworks */,
+				D032018D1692A56B003A5E16 /* CoreLocation.framework in Frameworks */,
+				D032018E1692A56B003A5E16 /* MapKit.framework in Frameworks */,
+				D032018F1692A56B003A5E16 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +145,9 @@
 		D032010D1692A340003A5E16 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D032018A1692A56B003A5E16 /* CoreLocation.framework */,
+				D032018B1692A56B003A5E16 /* MapKit.framework */,
+				D032018C1692A56B003A5E16 /* UIKit.framework */,
 				D032010E1692A340003A5E16 /* UIKit.framework */,
 				D03201101692A340003A5E16 /* Foundation.framework */,
 				D03201121692A340003A5E16 /* CoreGraphics.framework */,
@@ -88,6 +163,13 @@
 				D03201261692A340003A5E16 /* ZKViewController.h */,
 				D03201271692A340003A5E16 /* ZKViewController.m */,
 				D03201291692A340003A5E16 /* ZKViewController.xib */,
+				D032013D1692A507003A5E16 /* CustomAnnotation */,
+				D032014B1692A507003A5E16 /* MapItemList.plist */,
+				D032014C1692A507003A5E16 /* Route */,
+				D03201521692A507003A5E16 /* CurrentLocation */,
+				D03201561692A507003A5E16 /* Annotation */,
+				D032015F1692A507003A5E16 /* DragDrop */,
+				D03201651692A507003A5E16 /* Overlay */,
 				D03201151692A340003A5E16 /* Supporting Files */,
 			);
 			path = ZKMapView;
@@ -105,6 +187,85 @@
 				D03201241692A340003A5E16 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D032013D1692A507003A5E16 /* CustomAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				D032013E1692A507003A5E16 /* CalloutAnnotation.h */,
+				D032013F1692A507003A5E16 /* CalloutAnnotation.m */,
+				D03201401692A507003A5E16 /* CalloutAnnotationView.h */,
+				D03201411692A507003A5E16 /* CalloutAnnotationView.m */,
+				D03201421692A507003A5E16 /* CalloutAnnotationView.xib */,
+				D03201431692A507003A5E16 /* mapTree.png */,
+				D03201461692A507003A5E16 /* PinAnnotation.h */,
+				D03201471692A507003A5E16 /* PinAnnotation.m */,
+				D03201481692A507003A5E16 /* ZKCustomAnnotationVC.h */,
+				D03201491692A507003A5E16 /* ZKCustomAnnotationVC.m */,
+				D032014A1692A507003A5E16 /* ZKCustomAnnotationVC.xib */,
+			);
+			path = CustomAnnotation;
+			sourceTree = "<group>";
+		};
+		D032014C1692A507003A5E16 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				D032014D1692A507003A5E16 /* ZKNetworkHandler.h */,
+				D032014E1692A507003A5E16 /* ZKNetworkHandler.m */,
+				D032014F1692A507003A5E16 /* ZKRouteVC.h */,
+				D03201501692A507003A5E16 /* ZKRouteVC.m */,
+				D03201511692A507003A5E16 /* ZKRouteVC.xib */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		D03201521692A507003A5E16 /* CurrentLocation */ = {
+			isa = PBXGroup;
+			children = (
+				D03201531692A507003A5E16 /* ZKCurrentLocationVC.h */,
+				D03201541692A507003A5E16 /* ZKCurrentLocationVC.m */,
+				D03201551692A507003A5E16 /* ZKCurrentLocationVC.xib */,
+			);
+			path = CurrentLocation;
+			sourceTree = "<group>";
+		};
+		D03201561692A507003A5E16 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				D03201571692A507003A5E16 /* logo.png */,
+				D03201581692A507003A5E16 /* pin_red.png */,
+				D03201591692A507003A5E16 /* pin_red@2x.png */,
+				D032015A1692A507003A5E16 /* ZKAnnotation.h */,
+				D032015B1692A507003A5E16 /* ZKAnnotation.m */,
+				D032015C1692A507003A5E16 /* ZKAnnotationVC.h */,
+				D032015D1692A507003A5E16 /* ZKAnnotationVC.m */,
+				D032015E1692A507003A5E16 /* ZKAnnotationVC.xib */,
+			);
+			path = Annotation;
+			sourceTree = "<group>";
+		};
+		D032015F1692A507003A5E16 /* DragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D03201601692A507003A5E16 /* ZKDragDropAnnotation.h */,
+				D03201611692A507003A5E16 /* ZKDragDropAnnotation.m */,
+				D03201621692A507003A5E16 /* ZKDragDropVC.h */,
+				D03201631692A507003A5E16 /* ZKDragDropVC.m */,
+				D03201641692A507003A5E16 /* ZKDragDropVC.xib */,
+			);
+			path = DragDrop;
+			sourceTree = "<group>";
+		};
+		D03201651692A507003A5E16 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				D03201661692A507003A5E16 /* ZKOverlayAnnotation.h */,
+				D03201671692A507003A5E16 /* ZKOverlayAnnotation.m */,
+				D03201681692A507003A5E16 /* ZKOverlayVC.h */,
+				D03201691692A507003A5E16 /* ZKOverlayVC.m */,
+				D032016A1692A507003A5E16 /* ZKOverlayVC.xib */,
+			);
+			path = Overlay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +325,18 @@
 				D03201231692A340003A5E16 /* Default@2x.png in Resources */,
 				D03201251692A340003A5E16 /* Default-568h@2x.png in Resources */,
 				D032012B1692A340003A5E16 /* ZKViewController.xib in Resources */,
+				D032016D1692A507003A5E16 /* CalloutAnnotationView.xib in Resources */,
+				D032016E1692A507003A5E16 /* mapTree.png in Resources */,
+				D03201721692A507003A5E16 /* ZKCustomAnnotationVC.xib in Resources */,
+				D03201731692A507003A5E16 /* MapItemList.plist in Resources */,
+				D03201761692A507003A5E16 /* ZKRouteVC.xib in Resources */,
+				D03201781692A507003A5E16 /* ZKCurrentLocationVC.xib in Resources */,
+				D03201791692A507003A5E16 /* logo.png in Resources */,
+				D032017A1692A507003A5E16 /* pin_red.png in Resources */,
+				D032017B1692A507003A5E16 /* pin_red@2x.png in Resources */,
+				D032017E1692A507003A5E16 /* ZKAnnotationVC.xib in Resources */,
+				D03201811692A507003A5E16 /* ZKDragDropVC.xib in Resources */,
+				D03201841692A507003A5E16 /* ZKOverlayVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +350,19 @@
 				D032011B1692A340003A5E16 /* main.m in Sources */,
 				D032011F1692A340003A5E16 /* ZKAppDelegate.m in Sources */,
 				D03201281692A340003A5E16 /* ZKViewController.m in Sources */,
+				D032016B1692A507003A5E16 /* CalloutAnnotation.m in Sources */,
+				D032016C1692A507003A5E16 /* CalloutAnnotationView.m in Sources */,
+				D03201701692A507003A5E16 /* PinAnnotation.m in Sources */,
+				D03201711692A507003A5E16 /* ZKCustomAnnotationVC.m in Sources */,
+				D03201741692A507003A5E16 /* ZKNetworkHandler.m in Sources */,
+				D03201751692A507003A5E16 /* ZKRouteVC.m in Sources */,
+				D03201771692A507003A5E16 /* ZKCurrentLocationVC.m in Sources */,
+				D032017C1692A507003A5E16 /* ZKAnnotation.m in Sources */,
+				D032017D1692A507003A5E16 /* ZKAnnotationVC.m in Sources */,
+				D032017F1692A507003A5E16 /* ZKDragDropAnnotation.m in Sources */,
+				D03201801692A507003A5E16 /* ZKDragDropVC.m in Sources */,
+				D03201821692A507003A5E16 /* ZKOverlayAnnotation.m in Sources */,
+				D03201831692A507003A5E16 /* ZKOverlayVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +478,7 @@
 				D03201301692A340003A5E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

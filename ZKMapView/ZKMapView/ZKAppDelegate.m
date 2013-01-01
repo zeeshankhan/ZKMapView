@@ -2,8 +2,8 @@
 //  ZKAppDelegate.m
 //  ZKMapView
 //
-//  Created by Zeeshan Khan on 01/01/13.
-//  Copyright (c) 2013 Zeeshan Khan. All rights reserved.
+//  Created by Zeeshan Khan on 24/10/12.
+//  Copyright (c) 2012 Zeeshan Khan. All rights reserved.
 //
 
 #import "ZKAppDelegate.h"
@@ -17,7 +17,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ZKViewController alloc] initWithNibName:@"ZKViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    UINavigationController *navCont = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = navCont;
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -2,8 +2,8 @@
 //  ZKAppDelegate.h
 //  ZKMapView
 //
-//  Created by Zeeshan Khan on 01/01/13.
-//  Copyright (c) 2013 Zeeshan Khan. All rights reserved.
+//  Created by Zeeshan Khan on 24/10/12.
+//  Copyright (c) 2012 Zeeshan Khan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
