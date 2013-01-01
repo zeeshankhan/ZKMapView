@@ -26,36 +26,36 @@
     NSMutableArray *locationArray = [NSMutableArray arrayWithCapacity:0];
     [locationArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                               @"1",@"tag",
-                              @"1. Rakesh Patole", @"title",
+                              @"1. ABC", @"title",
                               @"Indore, MP, India",@"address",
                               @"$59",@"price",
                               [NSNumber numberWithFloat:34.255146f],  @"lat",
                               [NSNumber numberWithFloat:133.519502f], @"lon", nil]];
     [locationArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                               @"2",@"tag",
-                              @"2. Anubha Pethia", @"title",
+                              @"2. PQR", @"title",
                               @"Pune, MH, India",@"address",
                               @"$69",@"price",
                               [NSNumber numberWithFloat:34.355146f],  @"lat",
                               [NSNumber numberWithFloat:133.619502f], @"lon", nil]];
     [locationArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                               @"3",@"tag",
-                              @"3. Zeeshan Khan", @"title",
+                              @"3. MNO", @"title",
                               @"New Jursy, USA",@"address",
                               @"$79",@"price",
                               [NSNumber numberWithFloat:34.555146f],  @"lat",
                               [NSNumber numberWithFloat:133.919502f], @"lon", nil]];
     [locationArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                               @"4",@"tag",
-                              @"4. Purva Zore", @"title",
+                              @"4. XYZ", @"title",
                               @"Sydney, Austrailia",@"address",
                               @"$89",@"price",
                               [NSNumber numberWithFloat:34.755146f],  @"lat",
                               [NSNumber numberWithFloat:133.819502f], @"lon", nil]];
     [locationArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                               @"5",@"tag",
-                              @"5. Mayur Nilwant", @"title",
-                              @"Karachi, Pakistan",@"address",
+                              @"5. QWE", @"title",
+                              @"London, Great Britain",@"address",
                               @"$99",@"price",
                               [NSNumber numberWithFloat:34.955146f],  @"lat",
                               [NSNumber numberWithFloat:133.719502f], @"lon", nil]];
