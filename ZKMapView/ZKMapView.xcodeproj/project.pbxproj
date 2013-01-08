@@ -46,6 +46,7 @@
 		D032018D1692A56B003A5E16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D032018A1692A56B003A5E16 /* CoreLocation.framework */; };
 		D032018E1692A56B003A5E16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D032018B1692A56B003A5E16 /* MapKit.framework */; };
 		D032018F1692A56B003A5E16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D032018C1692A56B003A5E16 /* UIKit.framework */; };
+		EB07CDE4169BF0EA008368CF /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB07CDE3169BF0EA008368CF /* Screen1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		D032018A1692A56B003A5E16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D032018B1692A56B003A5E16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D032018C1692A56B003A5E16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB07CDE3169BF0EA008368CF /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		D03200FF1692A340003A5E16 = {
 			isa = PBXGroup;
 			children = (
+				EB07CDE3169BF0EA008368CF /* Screen1.png */,
 				D03201141692A340003A5E16 /* ZKMapView */,
 				D032010D1692A340003A5E16 /* Frameworks */,
 				D032010B1692A340003A5E16 /* Products */,
@@ -337,6 +340,7 @@
 				D032017E1692A507003A5E16 /* ZKAnnotationVC.xib in Resources */,
 				D03201811692A507003A5E16 /* ZKDragDropVC.xib in Resources */,
 				D03201841692A507003A5E16 /* ZKOverlayVC.xib in Resources */,
+				EB07CDE4169BF0EA008368CF /* Screen1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
