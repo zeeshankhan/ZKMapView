@@ -49,10 +49,14 @@
     static NSString *strIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:strIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:strIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:strIdentifier];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     cell.textLabel.text = [_arrMapItems objectAtIndex:indexPath.row];
+    if (_arrMapItems.count == indexPath.row+1)
+        cell.detailTextLabel.text = @"Under Development";
+    else
+        cell.detailTextLabel.text = @"";
     return cell;
 }
 
